@@ -19,7 +19,6 @@ jobs:
         os: [windows-latest, macos-latest,ubuntu-latest]
 
     steps:
-    steps:
       - uses: actions/checkout@v2.1.0
       - uses: uraimo/run-on-arch-action@v1.0.9
         id: runcmd
